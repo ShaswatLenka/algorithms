@@ -1,0 +1,6 @@
+rootProject.name = 'algorithms'
+include 'graph'
+include 'graph'
+include 'src:main:graph'
+findProject(':src:main:graph')?.name = 'graph'
+
